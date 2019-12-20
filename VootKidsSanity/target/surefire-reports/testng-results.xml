@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="41256" started-at="2019-12-19T19:41:14 IST" finished-at="2019-12-19T19:41:55 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="41256" started-at="2019-12-19T19:41:14 IST" finished-at="2019-12-19T19:41:55 IST">
+      <class name="com.vootkids.WebSanity">
+        <test-method status="PASS" signature="testWatch()[pri:1, instance:com.vootkids.WebSanity@4501b7af]" name="testWatch" duration-ms="1559" started-at="2019-12-19T19:41:14 IST" finished-at="2019-12-19T19:41:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWatch -->
+        <test-method status="PASS" signature="testRead()[pri:2, instance:com.vootkids.WebSanity@4501b7af]" name="testRead" duration-ms="3037" started-at="2019-12-19T19:41:16 IST" finished-at="2019-12-19T19:41:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRead -->
+        <test-method status="PASS" signature="testListen()[pri:3, instance:com.vootkids.WebSanity@4501b7af]" name="testListen" duration-ms="43" started-at="2019-12-19T19:41:19 IST" finished-at="2019-12-19T19:41:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListen -->
+        <test-method status="PASS" signature="testLearn()[pri:4, instance:com.vootkids.WebSanity@4501b7af]" name="testLearn" duration-ms="5026" started-at="2019-12-19T19:41:19 IST" finished-at="2019-12-19T19:41:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLearn -->
+        <test-method status="PASS" signature="testAboutUs()[pri:5, instance:com.vootkids.WebSanity@4501b7af]" name="testAboutUs" duration-ms="1395" started-at="2019-12-19T19:41:24 IST" finished-at="2019-12-19T19:41:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAboutUs -->
+        <test-method status="PASS" signature="testContactUs()[pri:6, instance:com.vootkids.WebSanity@4501b7af]" name="testContactUs" duration-ms="1274" started-at="2019-12-19T19:41:25 IST" finished-at="2019-12-19T19:41:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContactUs -->
+        <test-method status="PASS" signature="testFAQs()[pri:7, instance:com.vootkids.WebSanity@4501b7af]" name="testFAQs" duration-ms="1351" started-at="2019-12-19T19:41:26 IST" finished-at="2019-12-19T19:41:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFAQs -->
+        <test-method status="PASS" signature="testPrivacyPolicy()[pri:8, instance:com.vootkids.WebSanity@4501b7af]" name="testPrivacyPolicy" duration-ms="1399" started-at="2019-12-19T19:41:28 IST" finished-at="2019-12-19T19:41:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrivacyPolicy -->
+        <test-method status="PASS" signature="testTermsConditions()[pri:9, instance:com.vootkids.WebSanity@4501b7af]" name="testTermsConditions" duration-ms="1292" started-at="2019-12-19T19:41:29 IST" finished-at="2019-12-19T19:41:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTermsConditions -->
+        <test-method status="PASS" signature="testNavigateHome()[pri:10, instance:com.vootkids.WebSanity@4501b7af]" name="testNavigateHome" duration-ms="2258" started-at="2019-12-19T19:41:31 IST" finished-at="2019-12-19T19:41:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigateHome -->
+      </class> <!-- com.vootkids.WebSanity -->
+      <class name="com.vootkids.EmailToFriend">
+        <test-method status="PASS" signature="sendEmail(java.lang.String)[pri:11, instance:com.vootkids.EmailToFriend@523884b2]" name="sendEmail" duration-ms="9364" started-at="2019-12-19T19:41:37 IST" data-provider="providedata" finished-at="2019-12-19T19:41:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chaitanya.shastry@webdunia.net]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendEmail -->
+        <test-method status="PASS" signature="sendEmail(java.lang.String)[pri:11, instance:com.vootkids.EmailToFriend@523884b2]" name="sendEmail" duration-ms="9197" started-at="2019-12-19T19:41:46 IST" data-provider="providedata" finished-at="2019-12-19T19:41:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chanishastry1@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendEmail -->
+      </class> <!-- com.vootkids.EmailToFriend -->
+      <class name="com.vootkids.Init">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.vootkids.Init@28d25987]" name="beforeSuite" is-config="true" duration-ms="22360" started-at="2019-12-19T19:40:52 IST" finished-at="2019-12-19T19:41:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.vootkids.Init@28d25987]" name="afterSuite" is-config="true" duration-ms="724" started-at="2019-12-19T19:41:55 IST" finished-at="2019-12-19T19:41:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.vootkids.Init -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
